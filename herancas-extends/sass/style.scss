@@ -1,0 +1,21 @@
+.btn {
+    width: 150px;
+    padding: 5px;
+    border-radius: 7px;
+    display: block;
+    margin-top: 10px;
+
+    &.btn-vermelho {
+        background-color: #ff4045;
+    }
+
+    &.btn-verde {
+        background-color: #40ff45;
+    }
+}
+
+.btn-azul {
+    @extend .btn;
+    background-color: #4045ff;
+    color: #f0f5ff;
+}
